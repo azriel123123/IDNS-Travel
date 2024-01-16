@@ -83,6 +83,11 @@
     margin-top: 5px;
 }
 
+.changecontent {
+    content: '';
+    color: #ffa500;
+}
+
 .home .content p {
     color: white;
     font-size: 15px;
