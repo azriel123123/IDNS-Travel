@@ -115,4 +115,12 @@
     margin-bottom: 30px;
     margin-top: 5px;
 }
+
+.home .content a {
+    padding: 10px;
+    background: white;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 550;
+}
 /* Home Section End */
