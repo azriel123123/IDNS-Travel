@@ -78,7 +78,7 @@
 .home .content h1 {
     color: white;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 550;
     text-shadow: 0px 1px 1px black;
     margin-top: 5px;
 }
@@ -86,6 +86,18 @@
 .changecontent {
     content: '';
     color: #ffa500;
+    text-shadow: 0px 1px 1px black;
+    animation: changetxt 10s infinite linear;    
+}
+
+@keyframes changetxt {
+    0%{content: "France";}
+    0%{content: "Spain";}
+    0%{content: "Japan";}
+    0%{content: "China";}
+    0%{content: "France";}
+    0%{content: "France";}
+    0%{content: "France";}
 }
 
 .home .content p {
