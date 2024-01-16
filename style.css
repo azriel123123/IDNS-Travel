@@ -126,4 +126,26 @@
     text-decoration: none;
     transition: 0.5;
 }
+
+@media (max-width:850px) {
+    .home{
+        background-position: 50%;
+    }
+}
+
+@media (max-width:450px) {
+    .home .content h5 {
+        font-size: 25px;
+    }
+    .home .content h1 {
+        font-size: 38px;
+    }
+    .home .content p {
+        font-size: 13px;
+    }
+}
 /* Home Section End */
+
+/* Section Book Start */
+
+/* Section Book End */
