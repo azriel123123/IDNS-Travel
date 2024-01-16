@@ -188,4 +188,13 @@
         box-shadow: 0px 5px 5px -6px black;
         height: 200px;
     }
+
+    .book .submit {
+        width: 160px;
+        font-size: 16px;
+        font-weight: 550;
+        background: #ffa500;
+        color: white;
+        
+    }
 /* Section Book End */
