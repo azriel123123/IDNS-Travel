@@ -5,7 +5,7 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 /* Navbar start */
@@ -58,12 +58,13 @@
 /* Home Section Start */
 .home {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(images/background\ img.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.home-content {
+.home .content {
     text-align: center;
     padding-top: 200px;
 }
@@ -77,13 +78,13 @@
 
 .home .content h1 {
     color: white;
-    font-size: 20px;
+    font-size: 70px;
     font-weight: 550;
     text-shadow: 0px 1px 1px black;
     margin-top: 5px;
 }
 
-.changecontent {
+.changecontent::after    {
     content: '';
     color: #ffa500;
     text-shadow: 0px 1px 1px black;
@@ -92,18 +93,18 @@
 
 @keyframes changetxt {
     0%{content: "France";}
-    0%{content: "Spain";}
-    0%{content: "Japan";}
-    0%{content: "China";}
-    0%{content: "India";}
-    0%{content: "United States";}
-    0%{content: "Italy";}
-    0%{content: "Turkey";}
-    0%{content: "Mexico";}
-    0%{content: "United Kingdom";}
-    0%{content: "Indonesia";}
-    0%{content: "Germany";}
-    0%{content: "Arab";}
+    10%{content: "Spain";}
+    20%{content: "Japan";}
+    30%{content: "China";}
+    40%{content: "India";}
+    50%{content: "United States";}
+    60%{content: "Italy";}
+    70%{content: "Turkey";}
+    80%{content: "Mexico";}
+    90%{content: "United Kingdom";}
+    100%{content: "Indonesia";}
+    110%{content: "Germany";}
+    120%{content: "Arab";}
 }
 
 .home .content p {
