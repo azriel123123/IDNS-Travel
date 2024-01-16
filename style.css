@@ -75,5 +75,11 @@
     text-shadow: 0px 1px 1px black;
 }
 
-.home
+.home .content h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+}
 /* Home Section End */
