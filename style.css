@@ -122,5 +122,8 @@
     color: black;
     letter-spacing: 2px;
     font-weight: 550;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5;
 }
 /* Home Section End */
