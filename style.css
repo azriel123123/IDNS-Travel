@@ -164,11 +164,11 @@
 
     .book .card {
         border-radius: 10px;
-        box-shadow: 0px 1px 1px black;
+        box-shadow: 0px 4px 4px black;
     }
 
     .book .row {
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     .book form input {
@@ -178,14 +178,14 @@
         outline: none;
         font-size: 15px;
         border-radius: 10px;
-        box-shadow: 0px 5px 5px -6px black;
+        box-shadow: 0px 9px 9px -9px black;
     }
 
     .book form textarea {
         border: none;
         border-radius: 10px;
         resize: none;
-        box-shadow: 0px 5px 5px -6px black;
+        box-shadow: 0px 7px 7px  black;
         height: 200px;
     }
 
@@ -195,6 +195,20 @@
         font-weight: 550;
         background: #ffa500;
         color: white;
-        
+        margin-top: 10px;
+        transition: 0.5s;
+    }
+
+    .book .submit:hover {
+        width: 170px;
+    }
+
+    @media (max-width:765px) {
+        .book {
+            padding: 0;
+        }
+        .main-text h1 {
+            padding: 20px;
+        }
     }
 /* Section Book End */
