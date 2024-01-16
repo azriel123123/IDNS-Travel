@@ -82,4 +82,9 @@
     text-shadow: 0px 1px 1px black;
     margin-top: 5px;
 }
+
+.home .content p {
+    color: white;
+    
+}
 /* Home Section End */
