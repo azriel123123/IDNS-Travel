@@ -8,6 +8,7 @@
     /* font-family: 'Roboto', sans-serif; */
 }
 
+
 /* Navbar start */
 #navbar {
     background: #ffa500;
@@ -53,6 +54,68 @@
     border: none;
 }
 /* Navbar End  */
+
+
+/* Toggle Start*/
+#checkbox {
+    display: none;
+  }
+  
+  .toggle {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    transition-duration: .5s;
+  }
+  
+  .bars {
+    width: 50%;
+    height: 4px;
+    background-color: #000;
+    border-radius: 4px;
+  }
+  
+  #bar2 {
+    transition-duration: .8s;
+  }
+  
+  #bar1,#bar3 {
+    width: 70%;
+  }
+  
+  #checkbox:checked + .toggle .bars {
+    position: absolute;
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle #bar2 {
+    transform: scaleX(0);
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle #bar1 {
+    width: 100%;
+    transform: rotate(45deg);
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle #bar3 {
+    width: 100%;
+    transform: rotate(-45deg);
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle {
+    transition-duration: .5s;
+    transform: rotate(180deg);
+  }
+/* Toggle End */
 
 
 /* Home Section Start */
@@ -151,6 +214,7 @@
     }
 }
 /* Home Section End */
+
 
 /* Section Book Start */
     .book {
@@ -275,6 +339,7 @@
     }
 /* Section Packages End */
 
+
 /* Section Service Start */
     .services {
         background: #f9f9f9;
@@ -305,6 +370,7 @@
     }
 /* Section Service End */
 
+
 /* Section Gallary Start */
     .gallary {
         margin-top: 50px;
@@ -326,6 +392,7 @@
         transform: scale(1.1);
     }
 /* Section Gallary End */
+
 
 /* About Start */
     .about {
@@ -377,6 +444,7 @@
     }
 /* About End */
 
+
 /* Footer Start */
 #footer {
     width: 100%;
@@ -413,3 +481,5 @@
     transform: scale(1.1);
 }
 /* Footer End */
+
+
