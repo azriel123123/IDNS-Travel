@@ -247,4 +247,20 @@
     .packages .card .card-body p {
         font-size: 15px;
     }
+
+    .checked {
+        color: #ffa500;
+    }
+
+    .star i {
+        font-size: 15px;
+    }
+
+    .packages .card .card-body h6 {
+        font-size: 20px;
+    }
+
+    .packages .card .card-body h6 {
+        font-size: 20px;
+    }
 /* Section Packages End */
