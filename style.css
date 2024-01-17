@@ -268,3 +268,21 @@
         border-radius: 5px;
     }
 /* Section Packages End */
+
+/* Section Service Start */
+    .services {
+        background: #f9f9f9;
+        margin-top: 50px;
+    }
+
+    .services .card {
+        box-shadow: 0px 5px 5px -6px black;
+        border: none;
+        cursor: pointer;
+    }
+
+    .services .card i {
+        text-align: center;
+        font: 80px;
+    }
+/* Section Service End */
