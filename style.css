@@ -397,8 +397,9 @@
     padding: 10px;
     border-radius: 5px;
     font-size: 20px;
-    background: black;
-    color: white;
+    background: white;
+    box-shadow: 0 6px 6px black;
+    color: black;
     margin-left: 10px;
     margin-bottom: 10px;
     transition: 0.5s;
@@ -407,5 +408,6 @@
 
 .social-links i:hover {
     background: #ffa500;
+    transform: scale(1.1);
 }
 /* Footer End */
