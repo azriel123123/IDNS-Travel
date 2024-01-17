@@ -339,6 +339,27 @@
 
     .about h2 {
         font-weight: 600;
-        
+        letter-spacing: 1px;
+    }
+
+    .about p {
+        font-weight: 500;
+    }
+
+    #about-btn {
+        width: 150px;
+        height: 38px;
+        border: none;
+        border-radius: 5px;
+        background: #ffa500;
+        color: white;
+        letter-spacing: 2px;
+        font-weight: 550;
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+
+    #about-btn:hover {
+        font-size: 170px;
     }
 /* About End */
