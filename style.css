@@ -238,4 +238,13 @@
     .packages .card .card-body {
         background: transparent;
     }
+
+    .packages .card .card-body h3 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .packages .card .card-body p {
+        font-size: 15px;
+    }
 /* Section Packages End */
