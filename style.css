@@ -450,7 +450,7 @@
     width: 100%;
     margin-top: 150px;
     text-align: center;
-    background: #f9f9f9;
+    background: #ffa500;
 }
 
 #footer h1 {
@@ -480,6 +480,9 @@
     background: #ffa500;
     transform: scale(1.1);
 }
+
+.footer-con {
+    background: #ffa500;
+    margin-bottom: -4rem;
+}
 /* Footer End */
-
-
