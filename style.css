@@ -309,11 +309,12 @@
 
     .gallary .card {
         border-radius: 10px;
-        box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+        box-shadow: rgba(0,0,0,0.1) 0 4px 12px;
         cursor: pointer;
     }
 
     .gallary .card img {
+        box-shadow: 0 6px 6px black;
         border-radius: 10px;
         transition: 0.5s;
     }
@@ -325,6 +326,7 @@
 
 /* About Start */
     .about {
+        padding: 50px;
         margin-top: 50px;
         background: #f9f9f9;
     }
@@ -357,9 +359,39 @@
         font-weight: 550;
         transition: 0.5s ease;
         cursor: pointer;
+        box-shadow: 0px 8px 8px black;
     }
 
     #about-btn:hover {
-        font-size: 170px;
+        width: 170px;
+    }
+
+    @media (max-width:765px) {
+        .about {
+            padding: 0;
+        }
     }
 /* About End */
+
+/* Footer Start */
+#footer {
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+#footer h1 {
+    font-weight: 600;
+    padding-top: 30px;
+    text-shadow: 0 0 1px black;
+}
+
+#footer h1 span {
+    color: #ffa500;
+}
+
+.sosial-links i {
+    padding: 10;
+}
+/* Footer End */
