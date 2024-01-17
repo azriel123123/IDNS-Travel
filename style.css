@@ -391,7 +391,19 @@
     color: #ffa500;
 }
 
-.sosial-links i {
-    padding: 10;
+.social-links i {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.social-links i:hover {
+    background: #ffa500;
 }
 /* Footer End */
